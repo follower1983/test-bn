@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/jquery.fullpage.css">
+  <link rel="stylesheet" href="css/main.css?6">
+  <title>Test for BN</title>
+</head>
+<body>
+  <ul id="menu">
+    <li data-menuanchor="firstPage"><a href="#firstPage">1<span>Главная</span></a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">2<span>Кто мы</span></a></li>
+    <li data-menuanchor="3rdPage"><a href="#3rdPage">3<span>Ваш кофе</span></a></li>
+    <li data-menuanchor="4thPage"><a href="#4thPage">4<span>Отзывы</span></a></li>
+  </ul>
+  <div id="overlay">
+    <ul class="menu">
+      <li><a href="javascript:void(0)">О компании</a></li>
+      <li><a href="javascript:void(0)">Галерея</a></li>
+      <li><a href="javascript:void(0)">Контакты</a></li>
+    </ul>
+  </div>
+  <button class="c-hamburger c-hamburger--htx"><span class="c-hamburger--text">Меню</span><span></span></button>
+
+  <div id="fullpage">
+    <div class="section active" id="section_1" data-anchor="firstPage">
+      <div class="logo">
+        <img  src="img/logo.png" alt="">
+        <span class="scroll-down">
+          крутите вниз
+          <img src="img/arrow-down.png" alt="arrow-down" class="arrow-down">
+        </span>
+      </div>
+    </div>
+    <div class="section" id="section_2" data-anchor="secondPage">
+      <div class="container">
+        <div class="col-md-6 col-sm-6 pad-right">
+          <h1>Все, что Вы хотели знать о кофе</h1>
+          <p>Кофе – это напиток с историей, со своим характером. И мы хотим, чтобы наша кофейня тоже имела свою историю. Для этого мы вдумчиво работаем над стилем, но не только внешним. </p>
+          <p>Стиль обслуживания, философия подачи хорошего расположения духа через чашку кофе с глубоким вкусом – это то, что делает наши кофейни неповторимыми.</p>
+          <h2>Наша философия</h2>
+          <p>Как и все хорошие идеи, мысль о создании сети мини-кофеен, где подают изысканный кофе «с собой» пришла владельцу «New York Coffee» внезапно, и сомнений не было: надо делать. Ведь в Москве – динамичной, огромной – нет точек продаж высококачественного кофе в формате «Take away», лишь предложения от предприятий класса фаст-фуд, где кофе второстепенен. А значит, не так хорош.</p>
+          <p>Мы меняем историю кофе в России: теперь можно насладиться вкусом элитных сортов ароматных зёрен в дымящемся напитке, не проводя целые часы в кофейне.</p>
+        </div>
+        <div class="col-md-6 col-sm-6 pad-left">
+          <h2>Наша команда</h2>
+          <p>Кофейный сомелье – как тонкий психолог. Он умеет расположить к себе и найти ключик к настроению гостя, чтобы удовлетворить его желания, о которых сам посетитель может даже не догадываться.</p>
+          <p>Наши бариста умеют это делать легко и эстетично. Не отнимая у Вас много времени (ведь Вы спешите), они поймут Ваши потребности и, ненавязчиво задав нужные вопросы, предложат такие оттенки вкуса кофе, которые сделают Ваш день.</p>
+          <h2>Чем наш кофе особенный?</h2>
+          <p>Знаете, что? Если вас кто-то спросит, что в вашем понимании значит «с душой» – приходите с этим любопытным человеком к нам! Самое лучшее сырьё, кофе премиум-класса, великолепное обслуживание плюс умелые руки бариста и высококлассное оборудование от Julius Meinl – это лишь часть магической формулы нашего успеха. <span>Но главное – душа.</span> Вы это почувствуете.</p>
+          <p>Приходите в кофейни «New York Coffee», где есть сидячие места и окунитесь в нашу невероятную атмосферу. Что может быть лучше чашечки ароматного кофе под ненавязчивую мелодию в стиле джаз, блюз или классики?  Кроме того, у нас самый большой ассортимент авторских напитков: <span>мы подходим к питию кофе, как к искусству.</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="section_3" data-anchor="3rdPage">
+      <div class="col-md-3 col-sm-6 coffee coffee_1">
+        <div class="coffee-bg"></div>
+        <img src="img/pic1.png" alt="pic1">
+        <span class="coffee-title">БОДРЯЩИЙ КОФЕ</span>
+        <span class="coffee-price">ОТ 70 рублей</span>
+        <span>Ни что так не бодрит как наш фирменный кофе. Мы разбудим Вас до конца, зарядим бодростью на несколько часов вперед и придадим сил.</span>
+      </div>
+      <div class="col-md-3 col-sm-6 coffee coffee_2">
+        <div class="coffee-bg"></div>
+        <img src="img/pic2.png" alt="pic2">
+        <span class="coffee-title">горячий шоколад</span>
+        <span class="coffee-price">ОТ 120 рублей</span>
+        <span>Для приготовления мы используем хорошую плитку темного шоколада, с 60% содержания какао и растворяем в хорошо прогретом молоке.</span>
+      </div>
+      <div class="col-md-3 col-sm-6 coffee coffee_3">
+        <div class="coffee-bg"></div>
+        <img src="img/pic3.png" alt="pic3">
+        <span class="coffee-title">тонизирующие чаи</span>
+        <span class="coffee-price">ОТ 50 рублей</span>
+        <span>Мало, что может сравниться с чашечкой тонизирующего чая утром перед работой, зарядиться энергией и расправиться с оковами сна.</span>
+      </div>
+      <div class="col-md-3 col-sm-6 coffee coffee_4">
+        <div class="coffee-bg"></div>
+        <img src="img/pic4.png" alt="pic4">
+        <span class="coffee-title">вкусные десерты</span>
+        <span class="coffee-price">ОТ 50 рублей</span>
+        <span>Наши десерты – это предел кулинарного искусства. Они изысканны и разнообразны, мы сочетаем несочетаемое и результат завораживает.</span>
+      </div>
+    </div>
+    <div class="section" id="section_4" data-anchor="4thPage">
+      <div class="slide" id="slide_1">
+        <div class="slide-text">Уютная атмосфера, запах настоящего кофе, который я не ощущала нигде, в каком кафе бы не находилась. Замечательное , уютное место!</div>
+      </div>
+      <div class="slide" id="slide_2">
+        <div class="slide-text">Уютная атмосфера, запах настоящего кофе, который я не ощущала нигде, в каком кафе бы не находилась. Замечательное , уютное место!</div>
+      </div>
+      <div class="slide" id="slide_3">
+        <div class="slide-text">Уютная атмосфера, запах настоящего кофе, который я не ощущала нигде, в каком кафе бы не находилась. Замечательное , уютное место!</div>
+      </div>
+      <div class="slide" id="slide_4">
+        <div class="slide-text">Уютная атмосфера, запах настоящего кофе, который я не ощущала нигде, в каком кафе бы не находилась. Замечательное , уютное место!</div>
+      </div>
+      <div class="slide" id="slide_5">
+        <div class="slide-text">Уютная атмосфера, запах настоящего кофе, который я не ощущала нигде, в каком кафе бы не находилась. Замечательное , уютное место!</div>
+      </div>
+      <div class="slide" id="slide_6">
+        <div class="slide-text">Уютная атмосфера, запах настоящего кофе, который я не ощущала нигде, в каком кафе бы не находилась. Замечательное , уютное место!</div>
+      </div>
+      <div class="slide" id="slide_7">
+        <div class="slide-text">Уютная атмосфера, запах настоящего кофе, который я не ощущала нигде, в каком кафе бы не находилась. Замечательное , уютное место!</div>
+      </div>
+      <div class="slide" id="slide_8">
+        <div class="slide-text">Уютная атмосфера, запах настоящего кофе, который я не ощущала нигде, в каком кафе бы не находилась. Замечательное , уютное место!</div>
+      </div>
+      <div class="slide" id="slide_9">
+        <div class="slide-text">Уютная атмосфера, запах настоящего кофе, который я не ощущала нигде, в каком кафе бы не находилась. Замечательное , уютное место!</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery.fullpage.js"></script>
+  <script src="js/jquery.easings.min.js"></script>
+  <script src="js/scrolloverflow.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
